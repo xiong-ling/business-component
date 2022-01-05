@@ -1,7 +1,9 @@
 # business-component
 
 ## 介绍
-本站点是用来记录在业务开发过程中要到的基础组件，通常是自己基于`antd`封装的一些常用的组件或工具方法
+本仓库是用来记录在业务开发过程中要到的基础组件，通常是自己基于`antd`封装的一些常用的组件。
+
+[组件库文档](https://xiong-ling.github.io/business-component/)
 
 ### 已实现的组件
 1. ClickOutsideThisElement
