@@ -5,9 +5,22 @@ import ClickOutsideThisElement from '../ClickOutsideThisElement'
 import styles from './style.less'
 
 interface IProps {
+    /**
+     * @description 自定义样式
+     */
     className?: string;
+    /**
+     * @description 文本框中显示的内容
+     */
     name: string;
+    /**
+     * @description 最大字数
+     * @default 200
+     */
     maxLength?: number;
+    /**
+     * @description 点击确定按钮的回调函数
+     */
     onConfirmRename: (name: string) => void;
 }
 

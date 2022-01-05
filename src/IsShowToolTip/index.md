@@ -3,6 +3,8 @@
 
 该组件就适用于该场景，单行，多行显示，超出进行`tooltip`提示，但是也要记得进行`CSS`样式的控制。
 
+<API></API>
+
 ### Demo:
 <code src="./demo.tsx"></code>
 

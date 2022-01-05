@@ -4,9 +4,22 @@ import { Tooltip } from 'antd'
 import styles from './index.css'
 
 interface IProps {
+    /**
+    * @description 高度，超出多高隐藏，一般是 行高 * 行数
+    */
     height: number;
+    /**
+    * @description Tooltip 的提示内容，一般传入显示的文字
+    */
     title: string;
+    /**
+     * @description 类名，用于样式
+     * @default is-overflow
+     */
     classname?: string;
+    /**
+    * @description 子组件
+    */
     children: React.ReactElement;
 }
 
